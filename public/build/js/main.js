@@ -1,0 +1,1 @@
+(()=>{"use strict";let t=document.forms.add;for(let e in t)e.addEventListener("submit",(function(t){t.preventDefault();let e=this.elements.busket.dataset.id,n=new FormData;n.append("id",e),fetch("/",{method:"post",body:n}).then((t=>t.text())).then((t=>console.log(t)))}))})();

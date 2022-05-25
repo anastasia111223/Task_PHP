@@ -1,0 +1,21 @@
+{
+    "name": "developer/project",
+    "description": "task_shop",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Goods\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anastasia Emelianova",
+            "email": "nastyajane@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-pdo": "*"
+      }
+}
